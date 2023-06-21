@@ -10,7 +10,9 @@
     "test:e2e": "start-server-and-test preview :4173 'cypress run --e2e'",
     "test:e2e:dev": "start-server-and-test 'vite dev --port 4173' :4173 'cypress open --e2e'",
     "lint": "eslint . --fix",
-    "format": "prettier .  --write"
+    "format": "prettier .  --write",
+    "prepare": "husky install",
+    "commit": "git-cz"
   },
   "dependencies": {
     "@eslint/js": "^8.43.0",
@@ -19,6 +21,8 @@
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.6.5",
+    "@commitlint/config-conventional": "^17.6.5",
     "@rushstack/eslint-patch": "^1.1.4",
     "@vitejs/plugin-vue": "^4.0.0",
     "@vue/eslint-config-prettier": "^7.0.0",
@@ -32,10 +36,17 @@
     "eslint-plugin-unused-imports": "^2.0.0",
     "eslint-plugin-vitest": "^0.2.6",
     "eslint-plugin-vue": "^9.15.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.3",
     "jsdom": "^20.0.3",
     "prettier": "2.8.8",
     "start-server-and-test": "^1.15.2",
     "vite": "^4.0.0",
     "vitest": "^0.25.6"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
