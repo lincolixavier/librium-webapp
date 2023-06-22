@@ -30,14 +30,5 @@ module.exports = {
       plugins: ['vitest'],
       extends: ['plugin:vitest/recommended'],
     },
-    // Configuration for testing with cypress
-    {
-      files: ['**/*.cy.js'],
-      plugins: ['cypress'],
-      extends: ['plugin:cypress/recommended'],
-      env: {
-        'cypress/globals': true,
-      },
-    },
   ],
 };
