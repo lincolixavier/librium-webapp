@@ -29,7 +29,7 @@ module.exports = {
     {
       files: ['**/*.test.js', '**/*.test.jsx'],
       plugins: ['vitest'],
-      extends: ['plugin:vitest/recommended']
-    }
-  ]
-}
+      extends: ['plugin:vitest/recommended'],
+    },
+  ],
+};
