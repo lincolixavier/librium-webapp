@@ -27,7 +27,7 @@ module.exports = {
     },
     // Configuration for testing with vitest
     {
-      files: ['**/*.test.js', '**/*.test.jsx'],
+      files: ['**/*.test.ts', '**/*.test.tsx'],
       plugins: ['vitest'],
       extends: ['plugin:vitest/recommended'],
     },
