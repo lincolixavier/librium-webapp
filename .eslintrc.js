@@ -17,7 +17,7 @@ module.exports = {
         browser: true
       },
       rules: {
-        'prettier/prettier': ['error', { singleQuote: true }],
+        'prettier/prettier': ['error', { singleQuote: true, endOfLine: 'auto' }],
         'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement', 'WithStatement'],
         'simple-import-sort/imports': 'error',
         'simple-import-sort/exports': 'error',
@@ -29,7 +29,7 @@ module.exports = {
     {
       files: ['**/*.test.ts', '**/*.test.tsx'],
       plugins: ['vitest'],
-      extends: ['plugin:vitest/recommended'],
-    },
-  ],
-};
+      extends: ['plugin:vitest/recommended']
+    }
+  ]
+}
