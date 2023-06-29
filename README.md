@@ -1,57 +1,67 @@
-# librium-webapp
+# Nuxt 3 Minimal Starter
 
-This template should help get you started developing with Vue 3 in Vite.
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Recommended IDE Setup
+## Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Make sure to install the dependencies:
 
-## Customize configuration
+```bash
+# npm
+npm install
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+# pnpm
+pnpm install
 
-## Project Setup
-
-```sh
-yarn
+# yarn
+yarn install
 ```
 
-### Compile and Hot-Reload for Development
+## Development Server
 
-```sh
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
+npm run dev
+
+# pnpm
+pnpm run dev
+
+# yarn
 yarn dev
 ```
 
-### Compile and Minify for Production
+## Production
 
-```sh
+Build the application for production:
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm run build
+
+# yarn
 yarn build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+Locally preview production build:
 
-```sh
-yarn test:unit
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm run preview
+
+# yarn
+yarn preview
 ```
 
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 
-```sh
-yarn test:e2e:dev
-```
+## Styling
 
-This runs the end-to-end tests against the Vite development server.
-It is much faster than the production build.
-
-But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
-
-```sh
-yarn build
-yarn test:e2e
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-yarn lint
-```
+The project uses a [Styles 7-1 architecture](https://sass-guidelin.es/pt/#arquitetura) and [Reasonable System for CSS Stylesheet Structure](https://rstacruz.github.io/rscss/)

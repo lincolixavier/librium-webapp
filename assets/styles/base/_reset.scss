@@ -1,0 +1,21 @@
+// -----------------------------------------------------------------------------
+// This file contains resets of styles
+// -----------------------------------------------------------------------------
+
+// reset margin and padding of all elements
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+input,
+button {
+  font-family: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}

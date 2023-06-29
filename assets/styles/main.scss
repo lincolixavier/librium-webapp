@@ -1,0 +1,19 @@
+// underscore for avoid conflict between this and nuxt.config.ts
+@use 'abstracts/variables' as _variables;
+@use 'abstracts/functions' as _functions;
+@use 'abstracts/mixins' as _mixins;
+@use 'abstracts/placeholders' as _placeholders;
+
+@use 'vendors/normalize';
+
+@use 'base/base';
+@use 'base/reset';
+@use 'base/typography';
+
+// @use 'layout/...';
+
+// @use 'components/...'
+
+// @use 'pages/...'
+
+// @use 'themes/...'
