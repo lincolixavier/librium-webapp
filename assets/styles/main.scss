@@ -1,17 +1,18 @@
-@use './normalize.scss';
+@use 'abstracts/variables';
+@use 'abstracts/functions';
+@use 'abstracts/mixins';
+@use 'abstracts/placeholders';
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+@use 'vendors/normalize';
 
-body {
-  font-family: 'Ysabeau Infant', sans-serif;
-}
+@use 'base/base';
+@use 'base/reset';
+@use 'base/typography';
 
-input {
-  outline: none;
-  border: none;
-  font-family: inherit;
-}
+// @use 'layout/...';
+
+// @use 'components/...'
+
+// @use 'pages/...'
+
+// @use 'themes/...'
