@@ -61,3 +61,7 @@ yarn preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Styling
+
+The project uses a [Styles 7-1 architecture](https://sass-guidelin.es/pt/#arquitetura) and [Reasonable System for CSS Stylesheet Structure](https://rstacruz.github.io/rscss/)
