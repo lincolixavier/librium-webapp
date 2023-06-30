@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Savoye Std';
+  src: url('@/assets/fonts/SavoyeStd/SavoyeStd.woff2') format('woff2'),
+    url('@/assets/fonts/SavoyeStd/SavoyeStd.woff') format('woff'),
+    url('@/assets/fonts/SavoyeStd/SavoyeStd.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
