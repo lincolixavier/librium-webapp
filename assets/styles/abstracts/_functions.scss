@@ -1,3 +1,9 @@
 // -----------------------------------------------------------------------------
 // This file contains all application-wide Sass functions.
 // -----------------------------------------------------------------------------
+
+@use 'sass:math';
+
+@function px-to-rem($pxValue) {
+  @return math.div($pxValue, 16px) * 1rem;
+}
