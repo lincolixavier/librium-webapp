@@ -23,9 +23,12 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['**/*.test.js', '**/*.test.jsx'],
+      files: ['**/*.test.ts'],
       plugins: ['vitest'],
-      extends: ['plugin:vitest/recommended']
+      extends: ['plugin:vitest/recommended'],
+      rules: {
+        'vitest/valid-describe-callback': 'off'
+      }
     }
   ]
 }
